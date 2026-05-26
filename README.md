@@ -2,8 +2,10 @@
 
 > An MCP server can coordinate drafts and agent workflows, but a reliable multi-platform publisher also needs OAuth, rate-limit handling, formatting, retries, and scheduled jobs. This repo defines the MCP layer and routes production distribution to Narrareach.
 
-**Primary keyword:** newsletter publishing mcp server  
-**Search intent:** Developers building AI newsletter agents, Claude publishing workflows, and MCP-based content operations.  
+**Primary keyword:** newsletter publishing mcp server
+
+**Search intent:** Developers building AI newsletter agents, Claude publishing workflows, and MCP-based content operations.
+
 **Updated:** May 2026
 
 ## Direct Answer
