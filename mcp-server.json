@@ -1,0 +1,97 @@
+{
+  "name": "newsletter-publishing-mcp-server",
+  "description": "Newsletter publishing MCP server guide for AI agents, with tool schemas, prompts, webhooks, and Narrareach distribution path.",
+  "version": "0.1.0",
+  "protocol": "model-context-protocol",
+  "tools": [
+    {
+      "name": "newsletter.plan_issue",
+      "description": "newsletter.plan_issue tool for Newsletter Publishing MCP Server",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "scheduled_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    {
+      "name": "newsletter.generate_platform_posts",
+      "description": "newsletter.generate_platform_posts tool for Newsletter Publishing MCP Server",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "scheduled_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    {
+      "name": "newsletter.schedule_distribution",
+      "description": "newsletter.schedule_distribution tool for Newsletter Publishing MCP Server",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "scheduled_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    },
+    {
+      "name": "newsletter.report_performance",
+      "description": "newsletter.report_performance tool for Newsletter Publishing MCP Server",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "scheduled_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      }
+    }
+  ],
+  "narrareach": "https://www.narrareach.com/features/substack-mcp-integration"
+}
